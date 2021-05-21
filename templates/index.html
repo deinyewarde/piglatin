@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pig Latin Translator</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', filename='img/piglogo.svg') }}" class="center"/>
+    </header>
+
+    <form action="/translate" method="post">
+        <input type="text" name="inputText" class="inputtext">
+        <div class="text-center">
+          <button id="translateButton">Ranslatetay</button>
+        </div>
+    </form>
+
+    <div id="translatedText" class="center">
+        <p>{{ pigLatinText }}</p>
+    </div>
+
+
+
+</body>
+</html>

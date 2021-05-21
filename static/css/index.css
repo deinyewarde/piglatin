@@ -1,0 +1,41 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    font-size:20px;
+}
+
+img {
+    height:250px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+input {
+    margin:auto;
+    display:block;
+}
+input.inputtext{
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    width: 50%;
+    height: 30px;
+}
+
+button {
+    font-family: 'Comfortaa', cursive;
+    padding:10px;
+    margin-top:18px;
+    background-color:#ff6289;
+    color: #ffffff;
+    font-size:20px;
+    border:none;
+    border-radius:10px;
+    align:center;
+}
+
+.text-center {
+    text-align: center;
+}
